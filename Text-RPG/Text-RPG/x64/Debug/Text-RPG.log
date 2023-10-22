@@ -1,0 +1,8 @@
+﻿  Bonus.cpp
+  Fight.cpp
+D:\Revit_Plagin\Text-RPG\Text-RPG\Fight.cpp(83,29): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+  PlayerEnemy.cpp
+  Shop.cpp
+  Text-RPG.cpp
+  Создание кода...
+  Text-RPG.vcxproj -> D:\Revit_Plagin\Text-RPG\x64\Debug\Text-RPG.exe

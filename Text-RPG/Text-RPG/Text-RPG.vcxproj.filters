@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Player-Enemy">
+      <UniqueIdentifier>{feb0346d-6bb4-48bb-8465-c6a82d0e7e4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Shop">
+      <UniqueIdentifier>{a5e35092-3d61-4822-ac7b-19ef1a980a14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Fight">
+      <UniqueIdentifier>{39d3e102-89c3-43bd-af5c-6a29e1289779}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Text-RPG.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerEnemy.cpp">
+      <Filter>Исходные файлы\Player-Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop.cpp">
+      <Filter>Исходные файлы\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="Fight.cpp">
+      <Filter>Исходные файлы\Fight</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlayerEnemy.h">
+      <Filter>Исходные файлы\Player-Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop.h">
+      <Filter>Исходные файлы\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="Fight.h">
+      <Filter>Исходные файлы\Fight</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
